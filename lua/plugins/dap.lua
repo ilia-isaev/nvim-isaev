@@ -18,7 +18,7 @@ local function init_dap()
 	local dapui = require("dapui")
 
 	-- Point to vscode-js-debug
-	local js_debug_path = vim.fn.expand("$HOME/nvim-dap/js-debug/src/dapDebugServer.js")
+	local js_debug_path = vim.fn.expand("$HOME/nvim/dap/js-debug/src/dapDebugServer.js")
 
 	-- Setup the adapter
 	dap.adapters["pwa-node"] = {
